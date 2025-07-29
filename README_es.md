@@ -1,10 +1,6 @@
 # Machine Learning Implementation
 ### Repositorio con implementaciones prácticas de algoritmos de Machine Learning orientado al aprendizaje y el análisis técnico en el ámbito de la programación y la Ciencia de Datos.
 
-## 🌐 Read this in Spanish / Leer en español
-👉 [README (versión en español)](README_es.md)
-
-
 ## Contenido
 - Visión general
 - Requisitos
