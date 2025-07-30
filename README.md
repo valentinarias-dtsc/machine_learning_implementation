@@ -2,7 +2,7 @@
 ### Repositorio con implementaciones prácticas de algoritmos de Machine Learning orientado al aprendizaje y el análisis técnico en el ámbito de la programación y la Ciencia de Datos.
 
 ## 🌐 Read this in Spanish / Leer en español
-👉 [README (versión en español)](README_es.md)
+[README (versión en español)](README_es.md)
 
 
 ## Contenido
@@ -61,7 +61,7 @@ machine_learning_implementation/
 |
 
 ## Cómo Ejecutar
-Para ejecutar las implementaciones, podés abrir los notebooks en la carpeta `run/` con Jupyter Notebook o JupyterLab. Ahí los comentarios y markdown te guiarán a través de cada paso del proceso de Machine Learning.
+Para ejecutar las implementaciones, podés abrir los notebooks en la carpeta `run/` con Jupyter Notebook o JupyterLab. Notesé que podrás elegir entre la versión en español (`run/es/`) y la versión en inglés (`run/en/`). Ahí, los comentarios y markdown te guiarán a través de cada paso del proceso de Machine Learning.
 
 ## Contribuir
 Si querés contribuir a este proyecto, podés hacerlo de las siguientes maneras:
@@ -72,17 +72,14 @@ Asegurate de seguir las pautas de contribución y mantener un estilo de código 
 
 ## Contacto
 Para cualquier consulta o sugerencia, podés contactarnos a través de:
-- Correo electrónico:
+### - Correo electrónico:
 
-  [Valentín Arias](mailto:valentinarias425@gmail.com) , 
-  [Agostina Gallucio](mailto:)
+  ### [Valentín Arias](mailto:valentinarias425@gmail.com) , [Agostina Gallucio](mailto:)
 
-- GitHub:
+### - GitHub:
 
-  [valentinarias-dtsc](github.com/valentinarias-dtsc) , 
-  [agostinagallucio](github.com/agostinagallucio)
+  ### [valentinarias-dtsc](github.com/valentinarias-dtsc) , [agostinagallucio](github.com/agostinagallucio)
 
-- LinkedIn:
+### - LinkedIn:
 
-  [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/) , 
-  [Agostina Gallucio](https://www.linkedin.com/in//)
+  ### [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/) , [Agostina Gallucio](https://www.linkedin.com/in//)
