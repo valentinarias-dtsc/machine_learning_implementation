@@ -20,6 +20,7 @@ def LWLR(X_train, y_train, x_query, tau):
     return float(x @ theta)
 
 def LW_LinReg(X_train, y_train, X_test, tau):
+    X_test = np.asarray(X_test)
     return np.array([LWLR(X_train, y_train, x, tau) for x in X_test])
 
 def sigmoid(z):
@@ -48,4 +49,5 @@ def LWlR(X_train, y_train, x_query, tau, max_iter=20, lr=0.01, tol=1e-6):
     return (prob >= .5).astype(int)
 
 def LW_LogReg(X_train, y_train, X_test, tau, max_iter=20, lr=0.01, tol=1e-6):
+    X_test = np.asarray(X_test)
     return np.array([LWlR(X_train, y_train, x, tau, max_iter, lr, tol) for x in X_test])
