@@ -6,11 +6,11 @@ class LinearModel:
     def __init__(self, max_iter=100000, tol=1e-6, lr=1e-6, verbose=False, theta_0=None):
         """
         Args:
-            max_iter: maximum number of iterations
-            tol: tolerance for the convergence criterion
-            lr: step size for each iteration
-            verbose: prints the loss values during training
-            theta_0: initialization for the parameters
+            max_iter (int): maximum number of iterations
+            tol (float): tolerance for the convergence criterion
+            lr (float): step size for each iteration
+            verbose (bool): prints the loss values during training
+            theta_0 (array-like): initialization for the parameters
         """
 
         self.max_iter = max_iter

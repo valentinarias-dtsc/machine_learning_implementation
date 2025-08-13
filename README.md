@@ -1,85 +1,85 @@
 # Machine Learning Implementation
-### Repositorio con implementaciones prácticas de algoritmos de Machine Learning orientado al aprendizaje y el análisis técnico en el ámbito de la programación y la Ciencia de Datos.
+### Repository with practical implementations of Machine Learning algorithms focused on learning and technical analysis in programming and Data Science.
 
 ## 🌐 Read this in Spanish / Leer en español
-[README (versión en español)](README_es.md)
+[README (Spanish version)](README_es.md)
 
-
-## Contenido
-- Visión general
-- Requisitos
-- Instalación
-- Estructura del proyecto
+## Contents
+- Overview
+- Requirements
+- Installation
+- Project Structure
 - Datasets
-- Cómo Ejecutar
-- Contribuir
-- Contacto
+- How to Run
+- Contributing
+- Contact
 
-## Visión general
-Este repositorio reúne implementaciones didácticas de algoritmos de Machine Learning, con un enfoque en el aprendizaje práctico y la comprensión de los conceptos fundamentales. Cada implementación trabaja con un dataset específico y está diseñada para ser fácilmente comprensible y modificable.
+## Overview
+This repository gathers educational implementations of Machine Learning algorithms, focusing on practical learning and understanding of fundamental concepts. Each implementation works with a specific dataset and is designed to be easily understandable and modifiable.
 
-## Requisitos
-- Python 3.8 o superior
-- Bibliotecas: NumPy, Pandas, Scikit-learn, Matplotlib, ###
+## Requirements
+- Python 3.8 or higher
+- Libraries: NumPy, Pandas, Scikit-learn, Matplotlib.
 
-## Instalación
-Para clonar el repositorio, ejecutá el siguiente comando en tu terminal:
+## Installation
+To clone the repository, run the following command in your terminal:
 
 ```bash
 git clone https://github.com/valentinarias-dtsc/machine_learning_implementation.git
 cd machine_learning_implementation
 ```
 
-Luego, asegurate de tener un entorno virtual activo (opcional pero recomendado) y ejecutá:
+Then, make sure you have a virtual environment activated (optional but recommended) and run:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # En Linux/Mac
-venv\Scripts\activate  # En Windows
+source venv/bin/activate  # On Linux/Mac
+venv\Scripts\activate  # On Windows
 ```
 
-Para instalar las dependencias del proyecto, podés usar pip:
+To install the project dependencies, use pip:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Estructura del proyecto
+## Project Structure
 ```plaintext
 machine_learning_implementation/
-├── data/                # Carpeta para datasets utilizados
-├── run/                 # Notebooks de Jupyter para visualización y análisis
-  ├── es/                  # Implementaciones en español
-  ├── en/                  # Implementaciones en inglés
-├── src/                 # Código fuente de las implementaciones
-├── requirements.txt     # Dependencias del proyecto
-├── README.md            # Documentación del proyecto
+├── data/                # Folder for used datasets
+├── notebooks_en/        # Jupyter Notebooks in English
+  └── output/            # Folder to save plots, results, etc.
+├── notebooks_es/        # Jupyter Notebooks in Spanish
+  └── output/            # Folder to save plots, results, etc.
+├── src/                 # Source code for implementations
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
 ```
 ## Datasets
-|Nombre|Descripción|Fuente|Variables principales|
-|------|-----------|------|---------------------|
-|
+|Name|Description|Main variables|
+|----|-----------|--------------|
+|dataset_regresion|Synthetic dataset with features to help explore models|'X', 'y'|
 
-## Cómo Ejecutar
-Para ejecutar las implementaciones, podés abrir los notebooks en la carpeta `run/` con Jupyter Notebook o JupyterLab. Notesé que podrás elegir entre la versión en español (`run/es/`) y la versión en inglés (`run/en/`). Ahí, los comentarios y markdown te guiarán a través de cada paso del proceso de Machine Learning.
+## How to Run
+To run the implementations, open the notebooks in the `notebooks_en/` folder with Jupyter Notebook or JupyterLab. Note that you can choose between the Spanish version (`notebooks_es/`) and the English version (`notebooks_en/`). There, comments and markdown will guide you through each step of the Machine Learning process.
 
-## Contribuir
-Si querés contribuir a este proyecto, podés hacerlo de las siguientes maneras:
-- Abriendo un issue para reportar errores o sugerir mejoras.
-- Enviando un pull request con tus cambios.
-- Compartiendo ideas o datasets interesantes para incluir en futuras implementaciones.
-Asegurate de seguir las pautas de contribución y mantener un estilo de código consistente.
+## Contributing
+If you want to contribute to this project, you can do so in the following ways:
+- Opening an issue to report bugs or suggest improvements.
+- Submitting a pull request with your changes.
+- Sharing ideas or interesting datasets to include in future implementations.
+Make sure to follow the contribution guidelines and maintain a consistent coding style.
 
-## Contacto
-Para cualquier consulta o sugerencia, podés contactarnos a través de:
-### - Correo electrónico:
+## Contact
+For any questions or suggestions, you can contact us via:
+### - Email:
 
-  ### [Valentín Arias](mailto:valentinarias425@gmail.com) , [Agostina Gallucio](mailto:)
+  ### [Valentín Arias](mailto:valentinarias425@gmail.com), [Agostina Gallucio](mailto:)
 
 ### - GitHub:
 
-  ### [valentinarias-dtsc](github.com/valentinarias-dtsc) , [agostinagallucio](github.com/agostinagallucio)
+  ### [valentinarias-dtsc](github.com/valentinarias-dtsc), [agostinagallucio](github.com/agostinagallucio)
 
 ### - LinkedIn:
 
-  ### [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/) , [Agostina Gallucio](https://www.linkedin.com/in//)
+  ### [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/), [Agostina Gallucio](https://www.linkedin.com/in//)

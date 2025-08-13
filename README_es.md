@@ -1,6 +1,10 @@
 # Machine Learning Implementation
 ### Repositorio con implementaciones prácticas de algoritmos de Machine Learning orientado al aprendizaje y el análisis técnico en el ámbito de la programación y la Ciencia de Datos.
 
+## 🌐 Read this in English / Leer en inglés
+[README (versión en inglés)](README.md)
+
+
 ## Contenido
 - Visión general
 - Requisitos
@@ -16,7 +20,7 @@ Este repositorio reúne implementaciones didácticas de algoritmos de Machine Le
 
 ## Requisitos
 - Python 3.8 o superior
-- Bibliotecas: NumPy, Pandas, Scikit-learn, Matplotlib, ###
+- Bibliotecas: NumPy, Pandas, Scikit-learn, Matplotlib.
 
 ## Instalación
 Para clonar el repositorio, ejecutá el siguiente comando en tu terminal:
@@ -44,20 +48,21 @@ pip install -r requirements.txt
 ```plaintext
 machine_learning_implementation/
 ├── data/                # Carpeta para datasets utilizados
-├── run/                 # Notebooks de Jupyter para visualización y análisis
-  ├── es/                  # Implementaciones en español
-  ├── en/                  # Implementaciones en inglés
+├── notebooks_en/        # Notebooks de Jupyter en inglés
+  └── output/            # Carpeta para guardar gráficos, resultados, etc.
+├── notebooks_es/        # Notebooks de Jupyter en español
+  └── output/            # Carpeta para guardar gráficos, resultados, etc.
 ├── src/                 # Código fuente de las implementaciones
 ├── requirements.txt     # Dependencias del proyecto
-├── README.md            # Documentación del proyecto
+└── README.md            # Documentación del proyecto
 ```
 ## Datasets
-|Nombre|Descripción|Fuente|Variables principales|
-|------|-----------|------|---------------------|
-|
+|Nombre|Descripción|Variables principales|
+|------|-----------|---------------------|
+|dataset_regresion|Dataset sintético con características que ayuden a la exploración de modelos|'X', 'y'|
 
 ## Cómo Ejecutar
-Para ejecutar las implementaciones, podés abrir los notebooks en la carpeta `run/` con Jupyter Notebook o JupyterLab. Ahí los comentarios y markdown te guiarán a través de cada paso del proceso de Machine Learning.
+Para ejecutar las implementaciones, podés abrir los notebooks en las carpetas `notebooks_es/` con Jupyter Notebook o JupyterLab. Notesé que podrás elegir entre la versión en español (`notebooks_es/`) y la versión en inglés (`notebooks_en/`). Ahí, los comentarios y markdown te guiarán a través de cada paso del proceso de Machine Learning.
 
 ## Contribuir
 Si querés contribuir a este proyecto, podés hacerlo de las siguientes maneras:
@@ -68,17 +73,14 @@ Asegurate de seguir las pautas de contribución y mantener un estilo de código 
 
 ## Contacto
 Para cualquier consulta o sugerencia, podés contactarnos a través de:
-- Correo electrónico:
+### - Correo electrónico:
 
-  [Valentín Arias](mailto:valentinarias425@gmail.com) , 
-  [Agostina Gallucio](mailto:)
+  ### [Valentín Arias](mailto:valentinarias425@gmail.com) , [Agostina Gallucio](mailto:)
 
-- GitHub:
+### - GitHub:
 
-  [valentinarias-dtsc](github.com/valentinarias-dtsc) , 
-  [agostinagallucio](github.com/agostinagallucio)
+  ### [valentinarias-dtsc](github.com/valentinarias-dtsc) , [agostinagallucio](github.com/agostinagallucio)
 
-- LinkedIn:
+### - LinkedIn:
 
-  [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/) , 
-  [Agostina Gallucio](https://www.linkedin.com/in//)
+  ### [Valentín Arias](https://www.linkedin.com/in/valentinarias-dtsc/) , [Agostina Gallucio](https://www.linkedin.com/in//)
